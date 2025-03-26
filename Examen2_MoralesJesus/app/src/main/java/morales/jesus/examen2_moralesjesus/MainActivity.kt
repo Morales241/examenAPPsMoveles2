@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         if (llave){
+            llave =false
             carrgarCanciones(canciones)
         }
 
