@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NuevaCancion">
+
+
+    <TextView
+        android:id="@+id/txtTituloAgregarCancion"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:text="@string/ttlAgregar"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="@string/nombre"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtArtistaAgregarCancion"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="50dp"
+        android:background="@color/gris"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:importantForAccessibility="no"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="@string/Artista"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtNombreAgregarCancion"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="50dp"
+        android:background="@color/gris"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:importantForAccessibility="no"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="@string/albumA"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtAlbumAgregarCancion"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="50dp"
+        android:background="@color/gris"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:importantForAccessibility="no"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="@string/duracion"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtDuracionAgregarCancion"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="50dp"
+        android:background="@color/gris"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:importantForAccessibility="no"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/fondobtnplay"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="@string/agregarCancion"
+        android:textColor="@color/white" />
+
+</LinearLayout>

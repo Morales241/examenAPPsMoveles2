@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Examen2_MoralesJesus</string>
+    <string name="album">Album:</string>
+    <string name="eliminar">Eliminar cancion</string>
+    <string name="play">PlayDelicat</string>
+    <string name="ttlAgregar">Agregar Cancion</string>
+    <string name="nombre">Nombre</string>
+    <string name="ttl">Biblioteca de musica</string>
+    <string name="Artista">Artista</string>
+    <string name="agregarCancion">Agregar Cancion</string>
+    <string name="albumA">Álbum</string>
+    <string name="duracion">Duracion</string>
+</resources>

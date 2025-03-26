@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DetalleCancion">
+    <LinearLayout
+        android:id="@+id/contenedorDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/gris"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:drawableTop="@drawable/baseline_arrow_back_ios_new_24"
+            android:drawableTint="@color/black"
+            android:background="@null"
+            android:text="sdaa"
+            android:gravity="center"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="123"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="123"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtAlbum"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="@string/album"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/txtDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="123"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/fondobtnplay"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="@string/play"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_marginTop="80dp"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="@string/eliminar"
+        android:gravity="center"
+        android:importantForAccessibility="no"
+        android:layout_gravity="center"
+        android:background="@null"/>
+
+</LinearLayout>
