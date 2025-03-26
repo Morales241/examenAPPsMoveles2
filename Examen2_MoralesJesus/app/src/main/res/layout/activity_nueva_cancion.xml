@@ -104,7 +104,7 @@
         android:importantForAccessibility="no"/>
 
     <Button
-        android:id="@+id/btnPlay"
+        android:id="@+id/btnagregarCancion"
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_gravity="center"

@@ -1,6 +1,7 @@
 package morales.jesus.examen2_moralesjesus
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -49,6 +50,8 @@ class MainActivity : AppCompatActivity() {
         var btnAgregar:Button = findViewById(R.id.btnAgregar)
 
         btnAgregar.setOnClickListener {
+            val intent = Intent(this, NuevaCancion::class.java)
+            startActivity(intent)
 
         }
 
@@ -79,6 +82,16 @@ class MainActivity : AppCompatActivity() {
 
             txttitulo.text = items[position].nombre
             txtNombre.text = items[position].nombreArtista
+
+            view.setOnClickListener {
+                val intent = Intent(context, DetalleCancion::class.java)
+                intent.putExtra("nombre", items[position].nombre)
+                intent.putExtra("artista", items[position].nombreArtista)
+                intent.putExtra("duracion", items[position].duracion)
+                intent.putExtra("album", items[position].album)
+
+                context.startActivity(intent)
+            }
 
             return view
         }
